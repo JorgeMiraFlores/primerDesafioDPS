@@ -1,0 +1,146 @@
+.card{
+  display: inline;
+}
+
+.title{
+
+  margin: 0px;
+  text-align: center;
+  color: wheat;
+  padding: 30px;
+  background-color: #182640;
+
+}
+.title2{
+  width: 100%;
+  margin: 0px;
+  text-align: center;
+  color: wheat;
+  padding: 30px;
+  background-color: #182640;
+
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  background-color: #435980;
+
+  }
+
+.divCard{
+  margin: 0px;
+  border-radius: 2px;
+  text-align: center;
+  padding: 20px;
+  color: black;
+  
+}
+/*
+.img{
+  width: 200px;
+  height: 200px;
+}
+  */
+
+.total{
+    width: 20%;
+    border: 5px solid #214573;
+    background-color: #435980;
+    text-align: center;
+}
+
+.facturas{
+  width: 20%;
+  border: 5px solid #214573;
+}
+
+
+.btnCompra{
+
+font-family: Roboto, sans-serif;
+font-weight: 0;
+font-size: 14px;
+color: #fff;
+background-color: #d62828;
+padding: 10px 30px;
+border: 2px solid #0066cc;
+box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+border-radius: 50px;
+transition : 1000ms;
+transform: translateY(0);
+
+align-items: center;
+cursor: pointer;
+}
+
+.btnCompra:hover{
+
+transition : 1000ms;
+padding: 10px 50px;
+transform : translateY(-0px);
+background-color: #fff;
+color: #0066cc;
+border: solid 2px #0066cc;
+}
+
+
+.btnAñadir{
+
+font-family: Roboto, sans-serif;
+font-weight: 0;
+font-size: 14px;
+color: #fff;
+background-color: #2a9d8f;
+padding: 10px 30px;
+border: 2px solid #0066cc;
+box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+border-radius: 50px;
+transition : 1000ms;
+transform: translateY(0);
+align-items: center;
+cursor: pointer;
+}
+
+.btnAñadir:hover{
+
+transition : 1000ms;
+padding: 10px 50px;
+transform : translateY(-0px);
+background-color: #fff;
+color: #0066cc;
+border: solid 2px #0066cc;
+}
+
+.btnEliminar{
+
+  font-family: Roboto, sans-serif;
+  font-weight: 0;
+  font-size: 14px;
+  color: #fff;
+  background-color: #d62828;
+  padding: 10px 30px;
+  border: 2px solid #0066cc;
+  box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+  border-radius: 50px;
+  transition : 1000ms;
+  transform: translateY(0);
+  align-items: center;
+  cursor: pointer;
+  }
+  
+  .btnEliminar:hover{
+  
+  transition : 1000ms;
+  padding: 10px 50px;
+  transform : translateY(-0px);
+  color: #0066cc;
+  border: solid 2px #0066cc;
+  }
+  
+  .divCar{
+    margin-top: 0%;
+  }
